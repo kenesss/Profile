@@ -1,0 +1,61 @@
+.education-overview {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    color: #333;
+    border-bottom: 3px solid #50c9c3;
+}
+
+.education-timeline {
+    padding: 50px 20px;
+    background-color: #fff;
+    border-bottom: 3px solid #6d83f2;
+}
+
+.education-timeline ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-timeline ul li {
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.achievements {
+    padding: 50px 20px;
+    background-color: #e3f2fd;
+    text-align: center;
+}
+
+.achievement-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.achievement-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-card img{
+    width: 100%;
+}
+
+.achievement-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-card h3 {
+    color: #6d83f2;
+    margin-bottom: 10px;
+}
